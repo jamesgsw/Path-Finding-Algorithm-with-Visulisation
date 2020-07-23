@@ -51,12 +51,15 @@ The A* Path Search Algorithm Visualisation in this project uses a square grid.
 <a id= "point_5"></a>
 ## 5. Files in this Repository
 * aStarPathFindingAlgo.py - Source Code for the A* Path Finding Visualisation
-* visualisation_example.png - Screenshot of the A* Path Finding Visualisation program
 
 <a id= "point_6"></a>
 ## 6. Lessons Learnt and Conclusion
-* Object Oriented Programming (OOP)
-* PyGame
+* Object Oriented Programming (OOP) </br>
+Having a hands-on experience seeing how objects are interacted through this personal project. </br></br>
+* PyGame </br>
+Learning a new Python package which I thought I would never find a use. </br></br>
+* Software Architecture Design </br>
+Using LucidCharts web app to design a architecture design with inspiration from UML standards. I believe this new knowledge is essential for project documentaion when referring back in the future.
 
 <a id= "point_7"></a>
 ## 7. Acknowledgment
