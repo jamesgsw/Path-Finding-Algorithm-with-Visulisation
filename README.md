@@ -11,20 +11,22 @@
 
 <a id= "point_1"></a>
 ##  1. About the  Project
-This is a personal project for me to apply the algorithms that I learnt in University into real life examples. This project focuses on the A* Path Search Algorithm that I learnt during my sophomore year [Optimisation](https://esd.sutd.edu.sg/courses/40002-optimisation/) module in my [Business Analytics](https://esd.sutd.edu.sg/academics/undergraduate-programme/focus-tracks/business-analytics-and-operations-research/) 
+This is a personal project for me to apply the algorithms that I learnt in University into real life examples. This project focuses on the A* Path Search Algorithm that I learnt during my sophomore year [Optimisation](https://esd.sutd.edu.sg/courses/40002-optimisation/) module in my [Business Analytics.](https://esd.sutd.edu.sg/academics/undergraduate-programme/focus-tracks/business-analytics-and-operations-research/) 
 
 
 <a id= "point_2"></a>
 ##  2. A* Path Search Algorithm Overview
 This subsection intends to give a high level overview of the concept of the A* Path Search Algorithm.
-The goal of the aims A* Path Search Algorithm is to find a path to the given goal node having the smallest cost (least distance travelled, shortest time, etc.). </br>
+The goal of the aims A* Path Search Algorithm is to find a path to the given goal node having the smallest cost (least distance travelled, shortest time, etc.). </br></br>The visualisation is built with Python using the [PyGame](https://www.pygame.org/wiki/about) package for the generation of the visuals. </br></br>
 The algorithm is made up of two functions: f(n) = g(n) + h(n) </br>
 * Cost Function, g(n)  </br>
 Calculates the cost of the path from the start node to n.
 * Heuristic Function, h(n)  </br>
  **Estimates** the cost of the cheapest path from n to the goal. In this project, we use Manhattan distance which takes the absolute value of the horizontal and vertical distance between the current and end node.
 
-The visualisation is built on Python with the [PyGame](https://www.pygame.org/wiki/about) package used for the generation of the visuals.
+The pseudocode can be found [here](https://en.wikipedia.org/wiki/A*_search_algorithm#Pseudocode)
+
+
 
 <a id= "point_3"></a>
 ##  3. Usage
