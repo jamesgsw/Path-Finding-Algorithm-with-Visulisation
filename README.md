@@ -1,4 +1,4 @@
-# Path-Finding-Algorithm-with-Visulisation
+# Path-Finding-Algorithm-with-Visualisation
 
 ## Table of Contents:
 * [1. About the  Project](#point_1)
@@ -19,8 +19,8 @@ This is a personal project for me to apply the algorithms that I learnt in Unive
 This subsection intends to give a high level overview of the concept of the A* Path Search Algorithm.
 The goal of the aims A* Path Search Algorithm is to find a path to the given goal node having the smallest cost (least distance travelled, shortest time, etc.). </br>
 The algorithm is made up of two functions: f(n) = g(n) + h(n) </br>
-* Cost Function,g(n)  </br>
-Calcualtes the cost of the path from the start node to n.
+* Cost Function, g(n)  </br>
+Calculates the cost of the path from the start node to n.
 * Heuristic Function, h(n)  </br>
  **Estimates** the cost of the cheapest path from n to the goal. In this project, we use Manhattan distance which takes the absolute value of the horizontal and vertical distance between the current and end node.
 
@@ -30,7 +30,7 @@ The visualisation is built on Python with the [PyGame](https://www.pygame.org/wi
 ##  3. Usage
 The A* Path Search Algorithm Visualisation in this project uses a square grid.
 1. Declare the **Start**, use the left mouse button to click on desired start node(Orange Block)
-2. Delcare the **End**, use the left mouse button to click on desired end node(Sky Blue Block)
+2. Declare the **End**, use the left mouse button to click on desired end node(Sky Blue Block)
 3. Declare the **Barriers**, use the left mouse button to click/drag the desired nodes to be the barrier
 4. Start Path Finding Algo, hit space bar button on keyboard
 5. Reset Grid, hit "c" key on keyboard
@@ -52,6 +52,6 @@ The A* Path Search Algorithm Visualisation in this project uses a square grid.
 
 <a id= "point_7"></a>
 ## 7. Acknowledgment
-- The first acknowledgemnt goes to [Tim Rusica](https://www.linkedin.com/in/tim-ruscica/?originalSubdomain=ca), who's [Youtube tutorial](https://www.youtube.com/watch?v=JtiK0DOeI4A&list=PL28vvpnD7LBsqocFbqyZBV8IeR8mAg2HF) on the Python PyGame Implementation was an integral part of this project.
+- The first acknowledgment goes to [Tim Rusica](https://www.linkedin.com/in/tim-ruscica/?originalSubdomain=ca), who's [Youtube tutorial](https://www.youtube.com/watch?v=JtiK0DOeI4A&list=PL28vvpnD7LBsqocFbqyZBV8IeR8mAg2HF) on the Python PyGame Implementation was an integral part of this project.
 - Wikipedia A* Search Algorithm [Article.](https://en.wikipedia.org/wiki/A*_search_algorithm)
-- Computerphile [Youtube video](https://www.youtube.com/watch?v=ySN5Wnu88nE&t=42s) on A* Search Algorithm. 
+- Computerphile [Youtube video](https://www.youtube.com/watch?v=ySN5Wnu88nE&t=42s) on A* Search Algorithm.
