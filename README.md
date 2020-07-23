@@ -13,20 +13,26 @@
 ##  1. About the  Project
 This is a personal project for me to apply the algorithms that I learnt in University into real life examples. This project focuses on the A* Path Search Algorithm that I learnt during my sophomore year [Optimisation](https://esd.sutd.edu.sg/courses/40002-optimisation/) module in my [Business Analytics.](https://esd.sutd.edu.sg/academics/undergraduate-programme/focus-tracks/business-analytics-and-operations-research/) 
 
+| <img width="400" alt="visualisation_example" src="https://user-images.githubusercontent.com/36501392/88307153-2fb0be00-cd3e-11ea-8300-89aa457fd699.png"> |
+| :--: |
+| Screenshot of the A* Path Finding Algorithm Program Project |
 
 <a id= "point_2"></a>
 ##  2. A* Path Search Algorithm Overview
 This subsection intends to give a high level overview of the concept of the A* Path Search Algorithm.
 The goal of the aims A* Path Search Algorithm is to find a path to the given goal node having the smallest cost (least distance travelled, shortest time, etc.). </br></br>The visualisation is built with Python using the [PyGame](https://www.pygame.org/wiki/about) package for the generation of the visuals. </br></br>
 The algorithm is made up of two functions: f(n) = g(n) + h(n) </br>
-* Cost Function, g(n)  </br>
+* **Cost Function, g(n)**  </br>
 Calculates the cost of the path from the start node to n.
-* Heuristic Function, h(n)  </br>
+* **Heuristic Function, h(n)**  </br>
  **Estimates** the cost of the cheapest path from n to the goal. In this project, we use Manhattan distance which takes the absolute value of the horizontal and vertical distance between the current and end node.
 
-The pseudocode can be found [here](https://en.wikipedia.org/wiki/A*_search_algorithm#Pseudocode)
+Wikipedia has an excellent representation of the function of the code through pseudocode linked [here.](https://en.wikipedia.org/wiki/A*_search_algorithm#Pseudocode)
 
-
+The image below is the diagramatic flow of how the main function triggers the different functions within the source code(Named: aStarPathFindingAlgo.py). The main(WIN, WIDTH) is the container function which procedurely calls upon the different functions for the algorithm and visualisation to run.
+| ![A_ Star Path Finding Algorithm Diagram Flow](https://user-images.githubusercontent.com/36501392/88306632-8e296c80-cd3d-11ea-9a5c-8720e50648be.png) |
+| :--: |
+| Flow Diagram of various methods in source code |
 
 <a id= "point_3"></a>
 ##  3. Usage
